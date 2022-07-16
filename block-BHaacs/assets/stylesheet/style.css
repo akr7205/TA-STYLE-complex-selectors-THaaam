@@ -418,6 +418,7 @@ a {
 .files hr {
     width: 80%;
     margin-top: 3.5rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -427,7 +428,9 @@ a {
     margin-bottom: 2.5rem;
 }
 
-.learn-article {}
+.learn-article {
+
+}
 
 .learn-article h2 {
     color: #2A407E;
@@ -462,10 +465,12 @@ a {
     font-size: 2rem;
 }
 
-.table-container {}
+.table-container {
+
+}
 
 .table-container table {
-    width: 100%;
+   min-width: 100%;
     text-align: left;
 }
 
@@ -709,7 +714,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     html {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     /* General */
@@ -734,7 +739,7 @@ footer {
     .flex-60 {
         flex: 0 1 48%;
         /* text-align: center; */
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     .sm-column {
@@ -770,7 +775,7 @@ footer {
         justify-content: center;
     }
 
-    .sm-item-center {
+    .sm-item-center{
         align-items: center;
     }
 
@@ -778,11 +783,44 @@ footer {
         align-items: flex-start;
     }
 
-    /* Navbar */
     .sm-padding {
         padding: 3rem 2rem;
     }
-
+    /* NavBar  */
+    .header-nav{
+        display: none;
+    }
+    #toogle,
+    .bars{
+        display: inline-block;
+        color: #fff;
+        z-index: 99;
+        font-size: 2rem;
+     }
+    #toggle:checked~.header-nav {
+        display: inline-block;
+     }
+     
+     /* hero  */
+     .hero figure img{
+        width: 90%;
+        margin-top: 2.5rem;
+     }
+     /* files  */
+     .files-container a{
+        margin-bottom: 4rem;
+     }
+     /* pricing  */
+     .subscription{
+        margin-bottom: 2rem;
+     }
+     .pricing-card{
+        max-width: 50%;
+     }
+     /* trial  */
+     .trial{
+        padding: 3rem 0;
+     }
     /* footer  */
 
 
