@@ -341,9 +341,7 @@ a {
     color: #fff;
 }
 
-.header-nav {
-
-}
+.header-nav {}
 
 .hedaer-nav-list li {
     margin-right: 1.5rem;
@@ -428,9 +426,7 @@ a {
     margin-bottom: 2.5rem;
 }
 
-.learn-article {
-
-}
+.learn-article {}
 
 .learn-article h2 {
     color: #2A407E;
@@ -465,12 +461,10 @@ a {
     font-size: 2rem;
 }
 
-.table-container {
-
-}
+.table-container {}
 
 .table-container table {
-   min-width: 100%;
+    min-width: 100%;
     text-align: left;
 }
 
@@ -657,9 +651,7 @@ footer {
     margin-bottom: 5rem;
 }
 
-.footer-col {
-
-}
+.footer-col {}
 
 .footer-col h4 {
     color: #293F7E !important;
@@ -684,9 +676,7 @@ footer {
     font-weight: 500;
 }
 
-.footer-social {
-
-}
+.footer-social {}
 
 .footer-social li {
     margin-right: 1rem;
@@ -724,7 +714,7 @@ footer {
         padding: 0 2rem;
         margin: 0 auto;
     }
-    
+
     .flex-15,
     .flex-20,
     .flex-23,
@@ -775,7 +765,7 @@ footer {
         justify-content: center;
     }
 
-    .sm-item-center{
+    .sm-item-center {
         align-items: center;
     }
 
@@ -786,41 +776,71 @@ footer {
     .sm-padding {
         padding: 3rem 2rem;
     }
+
     /* NavBar  */
-    .header-nav{
+    .header-nav {
         display: none;
     }
+
     #toogle,
-    .bars{
+    .bars {
         display: inline-block;
         color: #fff;
         z-index: 99;
         font-size: 2rem;
-     }
+    }
+
     #toggle:checked~.header-nav {
         display: inline-block;
-     }
-     
-     /* hero  */
-     .hero figure img{
+    }
+    .header{
+        position: fixed;
+        z-index: 99;
+        background: rgb(89 191 194 / 50%);
+    }
+    .brand{
+        z-index: 99;
+    }
+    .header-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100vh;
+        padding-top: 120px;
+        background: rgba(59, 80, 172, .8);
+        /* z-index: 9; */
+    }
+    .hedaer-nav-list li{
+        margin-bottom: 4.5rem;
+    }
+    /* hero  */
+    .hero figure img {
         width: 90%;
         margin-top: 2.5rem;
-     }
-     /* files  */
-     .files-container a{
+    }
+
+    /* files  */
+    .files-container a {
         margin-bottom: 4rem;
-     }
-     /* pricing  */
-     .subscription{
+    }
+
+    /* pricing  */
+    .subscription {
         margin-bottom: 2rem;
-     }
-     .pricing-card{
+    }
+
+    .pricing-card {
         max-width: 50%;
-     }
-     /* trial  */
-     .trial{
+    }
+
+    /* trial  */
+    .trial {
         padding: 3rem 0;
-     }
+    }
+
     /* footer  */
 
 
