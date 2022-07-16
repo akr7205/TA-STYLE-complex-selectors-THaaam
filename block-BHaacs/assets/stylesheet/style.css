@@ -445,9 +445,35 @@ a {
     background: #59BFC2;
     padding: 0.8rem 3.2rem;
     color: #fff;
+    position: relative;
 }
+.learn-article .arrow-btn::before{
+    content: "";
+    display: inline-block;
+    width: 1.9rem;
+    height: 2.83rem;
+    background-color: #fff;
+    transform: rotate(40deg);
+    position: absolute;
+    left: -17px;
+    top: 7px;
 
-.learning-graph {}
+}
+.learn-article .arrow-btn::after{
+    content: "";
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background: rgb(89,191,194);
+    transform: rotate(44deg);
+    position: absolute;
+    right: -1rem;
+    top: 0.31rem;
+    
+}
+.learning-graph {
+
+}
 
 /* table  */
 .score {
@@ -461,7 +487,9 @@ a {
     font-size: 2rem;
 }
 
-.table-container {}
+.table-container {
+
+}
 
 .table-container table {
     min-width: 100%;
